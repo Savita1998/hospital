@@ -1,0 +1,810 @@
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Condensed', sans-serif; */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#global_contact {
+    height: 50px;
+    width: 100%;
+    padding: 0 80px;
+    font-family: 'Poppins', sans-serif;
+    color: grey;
+    border-bottom: 1px solid gray;
+}
+
+#global_contact .mainBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#global_contact .mainBox .box span {
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+#global_contact .mainBox .box i {
+    margin: 0 10px;
+    font-size: 17px;
+    color: #121414;
+}
+
+#Gnavbar {
+    height: 90px;
+    width: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#Gnavbar .navbar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 0 70px;
+    font-weight: bold;
+    color: #61D8E8;
+}
+
+#Gnavbar .menu {
+    font-size: 20px;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+
+#Gnavbar .menu span {
+    margin: 0 5px;
+    color: black;
+}
+
+#hero {
+    height: 100%;
+    width: 100%;
+    background-image: url(../image/doct.jpg);
+    object-fit: cover;
+    background-size: cover;
+    padding: 80px 60px;
+}
+
+#hero .box {
+    font-size: 13px;
+    color: #61D8E8;
+    padding: 20px 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#hero .box1 {
+    font-size: 50px;
+    color: #ffff;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.btn {
+    border-radius: 30px;
+    padding: 18px 40px;
+    border-color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 40px 10px;
+    outline: none;
+    border: none;
+}
+
+#hero .box h1 {
+    border-bottom: 4px solid rgb(185, 183, 183);
+    width: 200px;
+}
+
+#mainbox {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 100px 0 0 0;
+
+}
+
+#mainbox .box {
+    height: auto;
+    width: 500px;
+    padding: 0 30px;
+
+}
+
+.img {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+}
+
+#mainbox .box h1 {
+    font-size: 20px;
+    color: #2fd0e5;
+    border-bottom: 4px solid rgb(185, 183, 183);
+    width: 87px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+
+}
+
+#mainbox .box h2 {
+    font-size: 44px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgba(33, 28, 28, 0.858);
+    padding: 18px 0;
+
+}
+
+#mainbox .box p {
+    font-size: 14px;
+    color: #5f5d56;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+
+
+
+}
+
+#heading .content {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+#heading .content .box h1 {
+    font-size: 20px;
+    width: 100%;
+    color: #2fd0e5;
+    font-family: 'Roboto Condensed', sans-serif;
+
+
+}
+
+#heading .content .box h2 {
+    font-size: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgba(0, 0, 0, 0.799);
+}
+
+#boxes .logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#boxes .logo .sign {
+    height: 280px;
+    width: 350px;
+    background-color: #EFF5F9;
+    margin: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#boxes .logo .sign i {
+    padding: 20px 80px;
+    font-size: 70px;
+    color: aqua;
+}
+
+#boxes .logo .sign h1 {
+    font-size: 18px;
+    padding: 5px 50px;
+    color: rgba(49, 46, 46, 0.897);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#boxes .logo .sign p {
+    font-weight: 18px;
+    padding: 25px;
+    color: rgba(0, 0, 0, 0.687);
+    font-family: 'Poppins', sans-serif;
+}
+
+#collection .dolor {
+    height: 100%;
+    width: 100%;
+    background-color: #13C5DD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+#collection .dolor .Box {
+    height: 500px;
+    width: 500px;
+    background-color: #EFF5F9;
+    margin: 20px;
+    border-radius: 10px;
+
+}
+
+#collection .dolor .Box h1 {
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 20px 40px;
+    text-align: left;
+    color: #838589;
+
+}
+
+#collection .dolor .Box h2 {
+    font-size: 45px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 20px 40px;
+    text-align: left;
+    color: #1D2A4D;
+
+}
+
+#collection .dolor .Box p {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 20px;
+    text-align: left;
+    margin: 3px;
+
+}
+
+#collection .dolor .Box h4 {
+    font-size: 40px;
+    text-align: center;
+    color: #1D2A4D;
+    padding: 50px 0;
+}
+
+#collection .dolor select {
+    height: 55px;
+    width: 220px;
+    margin: 10px 0 0 15px;
+    text-align: center;
+    border-radius: 6px;
+    border: none;
+    background-color: #deefef;
+
+
+}
+
+#collection .dolor input {
+    height: 55px;
+    width: 220px;
+    margin: 10px 0 0 15px;
+    text-align: center;
+    border-radius: 6px;
+    border: none;
+    background-color: #deefef;
+}
+
+#collection .dolor .btn1 {
+    height: 60px;
+    width: 390px;
+    text-align: center;
+    border-radius: 18px;
+    margin: 50px;
+    background-color: #13C5DD;
+    color: white;
+    font-size: 17px;
+    border: none;
+    font-weight: bold;
+}
+
+
+.btn {
+    font-size: 13px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.797);
+    padding: 20px 72px;
+
+}
+
+#programs .medical {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 100px 0 0 0;
+
+}
+
+#programs .medical .medicalPrent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#programs .medical .sed {
+    height: 501px;
+    width: 300px;
+    background-color: rgb(10, 10, 10);
+    margin: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#programs .medical .sed .btn {
+    background-color: #13c6ddcb;
+    color: white;
+    margin: 0;
+
+
+}
+
+#programs .medical h1 {
+    font-size: 22px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #13C5DD;
+
+}
+
+#programs .medical h2 {
+    font-size: 60px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.sed img {
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+    background: linear-gradient(rgba(90, 83, 83, 0.174), rgba(56, 49, 49, 0.301));
+}
+
+#programs .medical .sed p {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 40px 0;
+    line-height: 37px;
+}
+
+#Healthcare .dr {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 100px 0 0 0;
+}
+
+#Healthcare .dr .cust {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#Healthcare .dr h1 {
+    font-size: 22px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #13C5DD;
+
+}
+
+#Healthcare .dr h2 {
+    font-size: 60px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgba(0, 0, 0, 0.783);
+}
+
+#Healthcare .dr .sings {
+    height: 327px;
+    width: 520px;
+    background-color: rgba(255, 255, 255, 0.418);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(128, 128, 128, 0.482);
+    justify-content: space-between;
+
+
+}
+
+#Healthcare .dr .sings .img {
+    height: 100%;
+    width: 90%;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    background-image: url(../image/team-2.jpg);
+
+}
+
+#Healthcare .dr .sings .img1 {
+    background-image: url(../image/team-3.jpg);
+}
+
+#Healthcare .dr .sings h2 {
+    font-size: 16px;
+    color: #13C5DD;
+    margin: 0 0 20px 0;
+    font-weight: initial;
+
+}
+
+#Healthcare .dr .sings h1 {
+    font-size: 34px;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#Healthcare .dr .sings p {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(0, 0, 0, 0.616);
+    margin: 0 0 40px 0;
+}
+
+#Healthcare .doccont {
+    text-align: left;
+    padding: 0 0 0 30px;
+}
+
+#Healthcare .dr .sings .logic {
+    font-size: 40px;
+    text-align: left;
+    color: #13C5DD;
+    margin: 15px 0 0 0;
+}
+
+#Healthcare .dr .sings .logic i {
+    margin: 0 10px;
+    transition: 0.4s ease-in-out;
+}
+
+#Healthcare .dr .sings .logic i:hover {
+    color: black;
+    font-size: 20px;
+}
+
+#smoke .here {
+    height: 100%;
+    width: 100%;
+    background-color: #13C5DD;
+    text-align: center;
+    padding: 100px 0 100px 0;
+}
+
+#smoke .here .rose {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+#smoke .here h1 {
+    font-size: 22px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    margin: 0 0 10px 0;
+}
+
+#smoke .here h2 {
+    font-size: 60px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #1D2A4D;
+
+}
+
+#smoke .here p {
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin: 20px 0;
+    text-align: center;
+
+}
+
+#smoke .here select {
+    padding: 20px 10px;
+    font-family: 'Poppins', sans-serif;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    font-weight: bold;
+    color: rgba(113, 110, 110, 0.662);
+    border: none;
+
+
+}
+
+#smoke .here input {
+    padding: 20px 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: rgba(120, 114, 114, 0.662);
+    border-right: none;
+    border-bottom: none;
+    border-top: none;
+    border-color: #12141446;
+}
+
+#smoke .here button {
+    padding: 20px 10px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #1D2A4D;
+    color: rgba(255, 255, 255, 0.795);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-weight: bold;
+    border: none;
+
+
+}
+
+
+#full .cost {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 100px 0 0 0;
+
+}
+
+#full .cost .space {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#full .cost .space .pink {
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    background-image: url(../image/testimonial-1.jpg);
+    border-radius: 120px;
+}
+
+#full .cost h1 {
+    font-size: 22px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #13C5DD;
+    margin: 0 0 10px 0;
+
+}
+
+#full .cost h2 {
+    font-size: 60px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #1D2A4D;
+
+}
+
+#full .cost p {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(0, 0, 0, 0.616);
+    margin: 30px 0 0;
+    justify-content: space-between;
+
+
+}
+
+#month .dec {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 100px 0 0 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#month .dec .blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#month .dec h1 {
+    font-size: 22px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #13C5DD;
+    margin: 0 0 10px 0;
+
+}
+
+#month .dec h2 {
+    font-size: 60px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #1D2A4D;
+
+}
+
+#month .sea .blog .cont {
+    height: 460px;
+    width: 350px;
+    background-color: #EFF5F9;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#month .sea .blog .img {
+    height: 45%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    background-image: url(../image/blog-1.jpg);
+}
+
+#month .sea .blog .img2 {
+    background-image: url(../image/blog-2.jpg);
+}
+
+#month .sea .blog .img3 {
+    background-image: url(../image/blog-3.jpg);
+}
+
+#month .sea .blog h1 {
+    font-size: 27px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #121414;
+    margin: 30px 0 0 0;
+}
+
+#month .sea .blog p {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(57, 55, 55);
+    margin: 30px 0 0 0;
+    justify-content: space-between;
+
+}
+
+#month .sea .blog .seen {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    padding: 0 20px;
+    margin: 6px 0;
+}
+
+#month .sea .blog .seen img {
+    border-radius: 50%;
+}
+
+#month .sea .blog .seen .usecenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#month .sea .blog .seen span {
+    margin: 0 10px;
+}
+
+#month .sea .blog .seen i {
+    font-size: 12px;
+    color: #13C5DD;
+}
+
+#last .page {
+    height: 100%;
+    width: 100%;
+    background-color: #1D2A4D;
+    padding: 100px 0 0 0;
+
+
+}
+
+#last .page .finish {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#last .page .finish .golu {
+    height: 300px;
+    width: 250px;
+    margin: 10px;
+}
+
+#last .page .finish .golu h1 {
+    font-size: 27px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #13C5DD;
+    margin: 30px 0;
+    text-align: left;
+
+
+}
+
+#last .page .finish .golu p {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin: 20px 0 0 0;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+#last .page .finish .golu i {
+    color: #13C5DD;
+    margin: 8px;
+    text-align: left;
+}
+
+#last .page .finish .golu span {
+    color: white;
+    text-align: left;
+}
+
+#last .page .finish .link span {
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+#last .page .finish .link input {
+    padding: 16px 0;
+    text-align: center;
+    margin: 0 0 0 5px;
+    border: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+#last .page .finish .link button {
+    padding: 16px 2px;
+    border: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: #13C5DD;
+
+}
+
+#last .page .finish .link h2 {
+    font-size: 17px;
+    margin: 20px 5px;
+    color: #13C5DD;
+}
+
+#last .page .finish .link .fa-brands {
+    font-size: 40px;
+    transition: 0.04s ease-in-out;
+}
+
+#last .page .finish .link .fa-brands:hover {
+    color: white;
+    font-size: 20px;
+}
+
+@media screen and (max-width:768px) {
+    #Gnavbar .menu {
+        display: none;
+    }
+
+    #global_contact {
+        display: none;
+    }
+}
